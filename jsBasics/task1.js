@@ -1,0 +1,14 @@
+let myString = "My string";
+let myNumber = 42;
+let myBoolean = true;
+let myNull = null;
+let myUndefined = undefined;
+let id = Symbol("id");
+let myBigNumber = 9007199254740991n;
+console.log("String Type Example: " + myString);
+console.log("Number Type Example: " + myNumber);
+console.log("Boolean Type Example: " + myBoolean);
+console.log("Null Type Example: " + myNull);
+console.log("Undefined Type Example: " + myUndefined);
+console.log(`Symbol Type Example: ${id.toString()}`);
+console.log("BigInt Type Example: " + myBigNumber); 
